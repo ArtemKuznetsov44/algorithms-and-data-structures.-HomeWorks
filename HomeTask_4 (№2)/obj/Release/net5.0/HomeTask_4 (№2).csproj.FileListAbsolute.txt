@@ -20,7 +20,6 @@ C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\bin\Release\ne
 C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\bin\Release\net5.0\HomeTask_4 (№2).dll
 C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\bin\Release\net5.0\ref\HomeTask_4 (№2).dll
 C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\bin\Release\net5.0\HomeTask_4 (№2).pdb
-C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\obj\Release\net5.0\HomeTask_4 (№2).csprojAssemblyReference.cache
 C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\obj\Release\net5.0\HomeTask_4 (№2).GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\obj\Release\net5.0\HomeTask_4 (№2).AssemblyInfoInputs.cache
 C:\Users\Artem\Desktop\GeekBrains\RepoForASD_GB\HomeTask_4 (№2)\obj\Release\net5.0\HomeTask_4 (№2).AssemblyInfo.cs

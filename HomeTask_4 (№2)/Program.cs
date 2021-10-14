@@ -14,8 +14,8 @@ namespace HomeTask_4___2_
             tree.AddNode(9);
             tree.AddNode(30);
             tree.FindElement(3);
-            Console.Write("Ввод элементов бинарного дерева (лево-корень-право):");
-            tree.Print_L_R_R();
+            Console.WriteLine("Ввод элементов бинарного дерева (корень-лево-право):");
+            tree.Print_RD_L_R(); 
             Console.Read(); 
 
 

@@ -172,19 +172,28 @@ namespace HomeTask_4___2_
         #endregion
 
         #region // Операции обхода (лево-корень-право) + вывод элементов.
-        public void Print_L_R_R()
+        public void Print_RD_L_R()
         {
             if (root == null)
                 return;
-            PrintRecurse(root);
+            PreOrderTravers(root);
         }
-        void PrintRecurse(Node current)
+        //void PrintRecurse(Node current)
+        //{
+        //    if (current.Left != null)
+        //        PrintRecurse(current.Left);
+        //    Console.Write(current.Data + " ");
+        //    if (current.Right != null)
+        //        PrintRecurse(current.Right);
+        //}
+         void PreOrderTravers(Node root, string s = "")
         {
-            if (current.Left != null)
-                PrintRecurse(current.Left);
-            Console.Write(current.Data + " ");
-            if (current.Right != null)
-                PrintRecurse(current.Right);
+            if (root != null)
+            {
+                Console.WriteLine("{1}{0}", root.Data, s);
+                PreOrderTravers(root.Left, s + "  ");
+                PreOrderTravers(root.Right, s + "  ");
+            }
         }
         #endregion
     }
