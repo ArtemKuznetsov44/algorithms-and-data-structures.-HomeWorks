@@ -97,12 +97,9 @@ namespace HomeTask_4___2_
         }
         void RebuildTree(Node temp)
         {
-            if (temp == null)
-                return;
-            // Пересобирается левая ветка дерева.
-            // На место удалённого встаёт наибольший элемент с левой ветки
-            // С помощью метода AddNode сохраняется правильная последовательность элементов
-            AddNode(temp.Data);
+            if (temp == null)            // Пересобирается левая ветка дерева.
+                return;                  // На место удалённого встаёт наибольший элемент с левой ветки
+            AddNode(temp.Data);          // С помощью метода AddNode сохраняется правильная последовательность элементов
             RebuildTree(temp.Left);
             RebuildTree(temp.Right);
         }
@@ -129,7 +126,6 @@ namespace HomeTask_4___2_
                 else // Если есть только правый элемент. 
                     root = root.Right; // Присваиваем корню правый элемент.
                 return root; // Возвращаем новый узел с удаленным элементом.
-
             }
             if (val < root.Data) // Если значение меньше корня, то идём в левую ветку и запускаем рекурсию пока не найдём значение.
             {                    // Когда нашли значение, то выполняем алгоритм выше.
@@ -147,46 +143,49 @@ namespace HomeTask_4___2_
         }
         #endregion
 
-        //public bool FindElement(int value)
-        //{
-        //    if (root == null)
-        //        return false;
-        //    else if (root.Data == value)
-        //        return true; 
-        //    else if(root.Data > value)
-        //    {
-        //        if (root.Left.Data == value)
-        //            return true;
-        //        else
-        //            FindRecursiv(root.Left, value); 
-        //    }
-        //}
-        //public void FindRecursiv(Node root, int value)
-        //{
+        #region // Операции поиска элемента по его значению.
+        public void FindElement(int value)
+        {
+            if (root == null)
+                Console.WriteLine("Дерево еще не содержит элементов.");
+            else if (root.Data == value)
+                Console.WriteLine($"Элемент {value} присутствует в дереве.");
+            else if (root.Data > value)
+                FindRecursiv(root.Left, value);
+            else
+                FindRecursiv(root.Right, value); 
+        }
+        public void FindRecursiv(Node root, int value)
+        {
+            if(root != null)
+            {
+                Comaparing(root.Data, value);
+                FindRecursiv(root.Left, value);
+                FindRecursiv(root.Right, value);
+            }
+        }
+        static void Comaparing(int data, int value)
+        {
+            if (data == value)
+                Console.WriteLine($"Элемент {value} присутствует в дереве");
+        }
+        #endregion
 
-        //    if (root != null)
-        //    {
-        //        if(root.Data == value)
-        //        {
-        //            return true;
-        //        }
-        //        FindRecursiv(root.Left);
-        //        FindRecursiv(root.Right);
-        //    }
-        //}
-        public void PrintLKP()
+        #region // Операции обхода (лево-корень-право) + вывод элементов.
+        public void Print_L_R_R()
         {
             if (root == null)
                 return;
-            PrintLKPRecurse(root); 
+            PrintRecurse(root);
         }
-        void PrintLKPRecurse(Node current)
+        void PrintRecurse(Node current)
         {
             if (current.Left != null)
-                PrintLKPRecurse(current.Left);
+                PrintRecurse(current.Left);
             Console.Write(current.Data + " ");
             if (current.Right != null)
-                PrintLKPRecurse(current.Right);
+                PrintRecurse(current.Right);
         }
+        #endregion
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\HomeTask_4 (№2)\\HomeTask_4 (№2).csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\GeekBrains\\RepoForASD_GB\\HomeTask_4 (№2)\\HomeTask_4 (№2).csproj",
       "projectName": "HomeTask_4 (№2)",
-      "projectPath": "C:\\Users\\Artem\\Desktop\\HomeTask_4 (№2)\\HomeTask_4 (№2).csproj",
+      "projectPath": "C:\\Users\\Artem\\Desktop\\GeekBrains\\RepoForASD_GB\\HomeTask_4 (№2)\\HomeTask_4 (№2).csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem\\Desktop\\HomeTask_4 (№2)\\obj\\",
+      "outputPath": "C:\\Users\\Artem\\Desktop\\GeekBrains\\RepoForASD_GB\\HomeTask_4 (№2)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
