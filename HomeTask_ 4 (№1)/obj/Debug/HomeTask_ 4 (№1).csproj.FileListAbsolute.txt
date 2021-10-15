@@ -1,0 +1,7 @@
+C:\Users\Artem\Desktop\HomeTask_ 4 (№1)\bin\Debug\HomeTask_ 4 (№1).exe.config
+C:\Users\Artem\Desktop\HomeTask_ 4 (№1)\bin\Debug\HomeTask_ 4 (№1).exe
+C:\Users\Artem\Desktop\HomeTask_ 4 (№1)\bin\Debug\HomeTask_ 4 (№1).pdb
+C:\Users\Artem\Desktop\HomeTask_ 4 (№1)\obj\Debug\HomeTask_ 4 (№1).csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\HomeTask_ 4 (№1)\obj\Debug\HomeTask_ 4 (№1).csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\HomeTask_ 4 (№1)\obj\Debug\HomeTask_ 4 (№1).exe
+C:\Users\Artem\Desktop\HomeTask_ 4 (№1)\obj\Debug\HomeTask_ 4 (№1).pdb
